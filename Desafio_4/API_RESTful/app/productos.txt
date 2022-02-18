@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Escuadra",
+    "price": 123.45,
+    "thumbnail": "https://placedog.net/500"
+  },
+  {
+    "id": 2,
+    "title": "Calculadora",
+    "price": 234.56,
+    "thumbnail": "https://placedog.net/120"
+  },
+  {
+    "id": 3,
+    "title": "Afeitadora",
+    "price": 97.9,
+    "thumbnail": "https://placedog.net/150"
+  },
+  {
+    "id": 4,
+    "title": "Afeitadora",
+    "price": 120.9,
+    "thumbnail": "https://placedog.net/12"
+  }
+]
