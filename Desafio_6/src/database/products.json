@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Escuadra",
+    "price": 12.9,
+    "image": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-512.png"
+  },
+  {
+    "id": 2,
+    "name": "Calculadora",
+    "price": 150.9,
+    "image": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-512.png"
+  },
+  {
+    "id": 3,
+    "name": "Despertador",
+    "price": 99.9,
+    "image": "https://cdn3.iconfinder.com/data/icons/education-209/64/clock-stopwatch-timer-time-512.png"
+  }
+]

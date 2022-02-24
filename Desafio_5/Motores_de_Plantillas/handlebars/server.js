@@ -18,7 +18,7 @@ app.engine("hbs", handlebars.engine({
     layoutsDir: path.join(__dirname, './views/layout')
 }));
 app.set("view engine", "hbs");
-app.set("views", "./views");
+app.set("views", "./views/layout");
 
 //Rutas
 app.use("/productos", routes);
