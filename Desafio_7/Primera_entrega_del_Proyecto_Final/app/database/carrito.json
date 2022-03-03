@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "timestamp": "marzo 2º 2022, 8:44:41 pm",
+    "productos": [
+      {
+        "id": 1,
+        "timestamp": "marzo 2º 2022, 8:44:52 pm",
+        "nombre": "Galaxy s21 Plus Ultra",
+        "descripcion": "Celular de alta gama",
+        "codigo": "155",
+        "foto": "https://placedog.net/500",
+        "precio": 4999.99,
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "timestamp": "marzo 2º 2022, 8:45:12 pm",
+    "productos": [
+      {
+        "id": 1,
+        "timestamp": "marzo 2º 2022, 8:48:42 pm",
+        "nombre": "Galaxy s21 Plus Ultra",
+        "descripcion": "Celular de alta gama",
+        "codigo": "155",
+        "foto": "https://placedog.net/500",
+        "precio": 4999.99,
+        "stock": 5
+      }
+    ]
+  }
+]
