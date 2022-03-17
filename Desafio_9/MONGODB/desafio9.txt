@@ -1,0 +1,245 @@
+/*********************************************************************DESAFIO_MONGODB********************************************************************/
+
+/* CREANDO DB ECOMMERCE */
+
+	use ecommerce
+
+/* CREANDO COLECCION PRODUCTOS Y MENSAJES */
+
+	db.createCollection("productos")
+	db.createCollection("mensajes")
+
+// 1 y 2
+
+/* INSERTANDO DATOS EN LA COLECCION PRODUCTOS */
+
+db.productos.insertMany([
+   {
+     "timestamp": ISODate(),
+     "nombre": "Escuadra",
+     "descripcion": "obs1",
+     "codigo": "123",
+     "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-512.png",
+     "precio": 125,
+     "stock": 100
+   },
+   {
+     "timestamp": ISODate(),
+     "nombre": "Calculadora",
+     "descripcion": "obs2",
+     "codigo": "345",
+     "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-512.png",
+     "precio": 1280,
+     "stock": 20
+   },
+   {
+     "timestamp": ISODate(),
+     "nombre": "Despertador",
+     "descripcion": "obs3",
+     "codigo": "567",
+     "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/clock-stopwatch-timer-time-512.png",
+     "precio": 300,
+     "stock": 5
+   },
+   {
+     "timestamp": ISODate(),
+     "nombre": "Audifonos",
+     "descripcion": "obs4",
+     "codigo": "432",
+     "foto": "https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/headset-512.png",
+     "precio": 2860,
+     "stock": 50
+   },
+   {
+     "timestamp": ISODate(),
+     "nombre": "PC",
+     "descripcion": "obs5",
+     "codigo": "268",
+     "foto": "https://cdn2.iconfinder.com/data/icons/mobile-smart-phone/64/connect_phone_pc_computer_sync-512.png",
+     "precio": 4800,
+     "stock": 2
+   },
+   {
+     "timestamp": ISODate(),
+     "nombre": "Cama",
+     "descripcion": "obs6",
+     "codigo": "753",
+     "foto": "https://cdn1.iconfinder.com/data/icons/real-estate-building-flat-vol-1/104/bed__sleep__furniture__hotel__interior-512.png",
+     "precio": 1600,
+     "stock": 25
+   },
+   {
+     "timestamp": ISODate(),
+     "nombre": "Escritorio",
+     "descripcion": "obs7",
+     "codigo": "854",
+     "foto": "https://cdn0.iconfinder.com/data/icons/work-from-home-16/64/Desk-Work_From_Home-Studio-Home_Office-Computer-512.png",
+     "precio": 550,
+     "stock": 5
+   },
+   {
+     "timestamp": ISODate(),
+     "nombre": "Lapicero Pilot Premium",
+     "descripcion": "obs8",
+     "codigo": "427",
+     "foto": "https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-25-512.png",
+     "precio": 130,
+     "stock": 300
+   },
+   {
+     "timestamp": ISODate(),
+     "nombre": "Foco Led multicolor",
+     "descripcion": "obs9",
+     "codigo": "573",
+     "foto": "https://cdn3.iconfinder.com/data/icons/light-filloutline/64/light_bulb-idea-foco-conclusion-electricity-illumination-invention_-512.png",
+     "precio": 155,
+     "stock": 100
+   },
+   {
+     "timestamp": ISODate(),
+     "nombre": "Celularr",
+     "descripcion": "obs10",
+     "codigo": "894",
+     "foto": "https://cdn1.iconfinder.com/data/icons/communication-set/64/iconspace_celular_phone_54px-512.png",
+     "precio": 3500,
+     "stock": 15
+   }
+])
+
+/* INSERTANDO DATOS EN LA COLECCION MENSAJES */
+
+db.mensajes.insertMany([
+        { 
+            email: "franco@gmail.com",
+            mensaje: "Hola Diego",
+            date: ISODate(),
+            de: "Franco"
+        },
+        { 
+            email: "diego@hotmail.com",
+            mensaje: "Hola Franco, como estás?",
+            date: ISODate(),
+            de: "Diego",
+        },
+	{ 
+            email: "franco@gmail.com",
+            mensaje: "Todo bien, solo buscando en que plataforma estudiar programación y tú?",
+            date: ISODate(),
+            de: "Franco"
+        },
+        { 
+            email: "diego@hotmail.com",
+            mensaje: "Pues yo estoy estudiando en CoderHouse",
+            date: ISODate(),
+            de: "Diego",
+        },
+	{ 
+            email: "franco@gmail.com",
+            mensaje: "Oh que bien y que tal es? ",
+            date: ISODate(),
+            de: "Franco"
+        },
+        { 
+            email: "diego@hotmail.com",
+            mensaje: "Es muy bueno, los profesores enseñan bien y los tutores están atentos en todo momento de la clase; te lo recomiendo!!!",
+            date: ISODate(),
+            de: "Diego",
+        },
+	{ 
+            email: "franco@gmail.com",
+            mensaje: "Wow, creo que tambien me inscribire en CoderHouse, por lo que me cuentas es muy bueno; y que curso estas llevando?",
+            date: ISODate(),
+            de: "Franco"
+        },
+        { 
+            email: "diego@hotmail.com",
+            mensaje: "Si es muy chido, estoy llevando el curso de Programación Backend",
+            date: ISODate(),
+            de: "Diego",
+        },
+	{ 
+            email: "franco@gmail.com",
+            mensaje: "OH, que interesante, creo que tambien me inscribire en ese curso, parece muy bueno; bueno me tengo que ir al gym, nos vemos!!!",
+            date: ISODate(),
+            de: "Franco"
+        },
+        { 
+            email: "diego@hotmail.com",
+            mensaje: "Justo yo tambien ire al gym nos vemos ai Franco",
+            date: ISODate(),
+            de: "Diego",
+        },
+	{ 
+            email: "franco@gmail.com",
+            mensaje: "jajaja que coincidencia; ok nos vemos en el gym Diego chau!!!",
+            date: ISODate(),
+            de: "Franco"
+        },
+	{ 
+            email: "diego@hotmail.com",
+            mensaje: "Ok, chau",
+            date: ISODate(),
+            de: "Diego",
+        }
+])
+
+//3
+
+/* LISTANDO PRODUCTOS */
+
+	db.productos.find().pretty()
+
+/* LISTANDO MENSAJES */
+
+	db.mensajes.find().pretty()
+
+// 4
+
+/* CANTIDAD DE DOCUMENTOS ALMACENADOS EN COLECCION PRODUCTOS */
+
+	db.productos.estimatedDocumentCount()
+
+/* CANTIDAD DE DOCUMENTOS ALMACENADOS EN COLECCION MENSAJES */
+
+	db.mensajes.estimatedDocumentCount()
+
+// 5
+
+/* CRUD */
+
+// a) Agregar un producto mas en la coleccion de productos  
+	
+	db.productos.insertOne({"timestamp": ISODate(),"nombre": "Impresora","descripcion": "obs10","codigo": "743","foto": "https://cdn3.iconfinder.com/data/icons/snowish/128x128/devices/printer.png","precio": 2200,"stock": 15})
+
+// b)  Realizar una consulta por nombre de producto específico 
+
+	// i)
+		db.productos.find({precio: {$lt: 1000}})
+	// ii)
+		db.productos.find({$and: [{precio: {$gte: 1000}}, {precio: {$lte: 3000}}]})
+	// iii)
+		db.productos.find({precio: {$gt: 3000}})
+	// iv)
+		db.productos.find({$and: [{nombre: {$exists: true}}, {precio: {$lt: 5000}}]}).skip(2).limit(1).sort({price: 1})
+
+// c) Hacer una actualización sobre todos los productos, agregando el campo stock a todos ellos con un valor de 100. 
+
+	db.productos.updateMany({}, {$set: {stock: 100}})
+
+// d) Cambiar el stock a cero de los productos con precios mayores a 4000 pesos. 
+
+	db.productos.updateMany({precio: {$gt: 4000}}, {$set: {stock: 0}})
+
+// e) Borrar los productos con precio menor a 1000 pesos. 
+
+	db.productos.deleteMany({precio: {$lt: 1000}})
+
+// 6
+
+/* USUARIO CON ROL DE LEER */
+
+	db.createUser({user: "pepe", pwd: "asd456", roles: [{role: "read", db: "ecommerce"}] })
+
+
+
+

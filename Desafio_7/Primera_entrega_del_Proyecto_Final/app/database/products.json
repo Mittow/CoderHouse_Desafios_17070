@@ -28,5 +28,75 @@
     "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/clock-stopwatch-timer-time-512.png",
     "precio": 200.9,
     "stock": 5
+  },
+  {
+    "id": 4,
+    "timestamp": "",
+    "nombre": "",
+    "descripcion": "obs4",
+    "codigo": "432",
+    "foto": "https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/headset-512.png",
+    "precio": 129.9,
+    "stock": 50
+  },
+  {
+    "id": 5,
+    "timestamp": "",
+    "nombre": "PC",
+    "descripcion": "obs5",
+    "codigo": "268",
+    "foto": "https://cdn2.iconfinder.com/data/icons/mobile-smart-phone/64/connect_phone_pc_computer_sync-512.png",
+    "precio": 3999.9,
+    "stock": 2
+  },
+  {
+    "id": 6,
+    "timestamp": "",
+    "nombre": "Cama",
+    "descripcion": "obs6",
+    "codigo": "753",
+    "foto": "https://cdn1.iconfinder.com/data/icons/real-estate-building-flat-vol-1/104/bed__sleep__furniture__hotel__interior-512.png",
+    "precio": 200.9,
+    "stock": 25
+  },
+  {
+    "id": 7,
+    "timestamp": "",
+    "nombre": "Escritorio",
+    "descripcion": "obs7",
+    "codigo": "854",
+    "foto": "https://cdn0.iconfinder.com/data/icons/work-from-home-16/64/Desk-Work_From_Home-Studio-Home_Office-Computer-512.png",
+    "precio": 499.9,
+    "stock": 5
+  },
+  {
+    "id": 8,
+    "timestamp": "",
+    "nombre": "Lapicero Pilot",
+    "descripcion": "obs8",
+    "codigo": "427",
+    "foto": "https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-25-512.png",
+    "precio": 2.9,
+    "stock": 300
+  },
+  {
+    "id": 9,
+    "timestamp": "",
+    "nombre": "Foco",
+    "descripcion": "obs9",
+    "codigo": "573",
+    "foto": "https://cdn3.iconfinder.com/data/icons/light-filloutline/64/light_bulb-idea-foco-conclusion-electricity-illumination-invention_-512.png",
+    "precio": 5.9,
+    "stock": 100
+  },
+  {
+    "id": 10,
+    "timestamp": "",
+    "nombre": "Celularr",
+    "descripcion": "obs10",
+    "codigo": "894",
+    "foto": "https://cdn1.iconfinder.com/data/icons/communication-set/64/iconspace_celular_phone_54px-512.png",
+    "precio": 999.9,
+    "stock": 15
   }
 ]
