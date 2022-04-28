@@ -1,0 +1,25 @@
+{
+  "name": "29-clusters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:cluster": "node cluster.js",
+    "pm2:worker": "pm2 start worker.config.js",
+    "pm2:cluster": "pm2 start cluster.config.js",
+    "forever:start": "forever start --watch index.js 3030",
+    "nodemon": "nodemon cluster.js 8082"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "forever": "^4.0.3",
+    "moment": "^2.29.3",
+    "pm2": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
